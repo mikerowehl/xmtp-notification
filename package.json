@@ -1,0 +1,22 @@
+{
+  "type": "module",
+  "dependencies": {
+    "@xmtp/agent-sdk": "^1.1.14",
+    "tsx": "^4.20.6",
+    "uint8arrays": "^5.1.0",
+    "viem": "*"
+  },
+  "name": "xmtp-notification",
+  "version": "0.1.0",
+  "description": "Broadcast notification demo",
+  "main": "index.js",
+  "scripts": {
+    "consumer1": "npx tsx ./startConsumer.ts c1",
+    "consumer2": "npx tsx ./startConsumer.ts c2",
+    "consumer3": "npx tsx ./startConsumer.ts c3",
+    "notify": "npx tsx ./sendNotification.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT"
+}
